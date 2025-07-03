@@ -194,13 +194,16 @@ body::selection{
 }
 .hero-text h1{
     font-family: 'Poppins', sans-serif;
-;
 }
 .hero-text p{
     font-size: 25px;
 }
 .hero-text span{
     color: #62ff62;
+}
+.btn-container a{
+    text-decoration: none;
+    color: white;
 }
 .btn-container {
   margin-top: 20px;
