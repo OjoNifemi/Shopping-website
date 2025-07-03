@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+     <div class="home" id="home">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">24ESSENTIALS</a>
+            </div>
+            <ul class="nav-links"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Products.html">Shop</a></li>
+                <li><a href="#categories" id="container-nav">Categories</a></li>
+            </ul>
+            <div class="search-wrapper">
+                <i class="fa fa-search" id="search-icon"></i>
+                <input type="text" placeholder="Search products..." id="search-input">
+            </div>
+
+            <div class="nav-icons">
+                <a href="cart.html" class="cart-icon">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>                
+                <input type="text" placeholder="   Search products......." class="search-bar">
+                <button id="sign-up-btn">Sign up</button>
+            </div>
+            
+            <div class="burger" id="burger-menu">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+        <div class="slide-menu">
+            <div class="close-menu" id="close-btn">
+                <i class="fa fa-times"></i>
+            </div>
+            <div class="slide-menu-header">
+                <h2>24ESSENTIALS</h2>
+                <p>Explore, shop & save</p>
+            </div>
+            <hr>
+            <ul class="slide-menu-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="Products.html">Shop</a></li>
+                <li><a href="#categories">Categories</a></li>
+            </ul>
+             <button id="sign-up-btn">Sign up</button>
+        </div>
+     </div>
+    <main class="products-page">
+      <section id="fashion" class="category-section">
+            <h2>Fashion</h2>
+        <div class="products-container">
+            <div class="product-card">
+                <img src="images/shirt-removebg-preview.png" alt="T-Shirt">
+                <h4>Classic black T-Shirt</h4>
+                <p class="price">₦3500</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/fashion.png" alt="Sneakers">
+                <h4>Canvas Sneakers</h4>
+                <p class="price">₦7000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+      </section>
+
+  <!-- 📺 ELECTRONICS -->
+        <section id="electronics" class="category-section">
+            <h2>Electronics</h2>
+            <div class="products-container">
+                <div class="product-card">
+                    <img src="images/headphones.jpg" alt="Headphones">
+                    <h4>Wireless Headphones</h4>
+                    <p class="price">₦8,500</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/phone.jpg" alt="Smartphone">
+                    <h4>Samsung A12</h4>
+                    <p class="price">₦105,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+  <!-- 🏠 HOME ESSENTIALS -->
+        <section id="home-essentials" class="category-section">
+            <h2>Home Essentials</h2>
+            <div class="products-container">
+                <div class="product-card">
+                    <img src="images/washing-machine.jpg" alt="Washing Machine">
+                    <h4>Compact Washer 7kg</h4>
+                    <p class="price">₦50,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/blender.jpg" alt="Blender">
+                    <h4>Electric Kitchen Blender</h4>
+                    <p class="price">₦12,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+  <!-- 💄 BEAUTY PRODUCTS -->
+    <section id="beauty-products" class="category-section">
+            <h2>Beauty Products</h2>
+        <div class="products-container">
+            <div class="product-card">
+                <img src="images/perfume.jpg" alt="Perfume">
+                <h4>Signature Fragrance</h4>
+                <p class="price">₦4500</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/lotion.jpg" alt="Body Lotion">
+                <h4>Aloe Vera Body Lotion</h4>
+                <p class="price">₦2500</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>           
+    </main>
+ <script src="product.js"></script>
+ <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <div class="home" id="home">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">24ESSENTIALS</a>
+            </div>
+            <ul class="nav-links"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Products.html">Shop</a></li>
+                <li><a href="#categories" id="container-nav">Categories</a></li>
+            </ul>
+            <div class="search-wrapper">
+                <i class="fa fa-search" id="search-icon"></i>
+                <input type="text" placeholder="Search products..." id="search-input">
+            </div>
+
+            <div class="nav-icons">              
+                <input type="text" placeholder="   Search products......." class="search-bar">
+                <button id="sign-up-btn">Sign up</button>
+            </div>
+            
+            <div class="burger" id="burger-menu">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+        <div class="slide-menu">
+            <div class="close-menu" id="close-btn">
+                <i class="fa fa-times"></i>
+            </div>
+            <div class="slide-menu-header">
+                <h2>24ESSENTIALS</h2>
+                <p>Explore, shop & save</p>
+            </div>
+            <hr>
+            <ul class="slide-menu-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#categories">Categories</a></li>
+            </ul>
+             <button id="sign-up-btn">Sign up</button>
+        </div>
+    </div>
+    <main class="cart-page">
+        <h2>Your Cart</h2>
+        <div class="cart-container">
+            <p class="empty-message">Your cart is currently empty.</p>
+        </div>
+        <div class="cart-summary">
+            <h3></h3>
+            <button class="checkout-btn" disabled>Checkout</button>
+        </div>
+    </main>
+    <script src="cart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
