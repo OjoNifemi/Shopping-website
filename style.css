@@ -665,6 +665,9 @@ body::selection{
         height: 270px;
         padding: 15px;
     }
+    .product-card button{
+        padding: 7px 15px;
+    }
     
     .product-card img {
         height: 150px;
