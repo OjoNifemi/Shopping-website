@@ -659,8 +659,8 @@ body::selection{
     }
     
     .product-card {
-        width: 200px;
-        min-height: 320px;
+        width: 150px;
+        height: 270px;
         padding: 15px;
     }
     
