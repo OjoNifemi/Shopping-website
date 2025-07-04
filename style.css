@@ -662,15 +662,16 @@ body::selection{
     
     .product-card {
         width: 150px;
-        height: 270px;
+        min-height: 270px;
         padding: 15px;
+        font-size: 10px;
     }
     .product-card button{
-        padding: 7px 15px;
+        padding: 6px 10px;
     }
     
     .product-card img {
-        height: 150px;
+        height: 120px;
     }
 }
 
