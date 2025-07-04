@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", renderCart);
 function renderCart() {
   const cart = JSON.parse(localStorage.getItem("cartItems")) || [];
   const cartContainer = document.querySelector(".cart-container");
@@ -80,4 +81,4 @@ function renderCart() {
     });
   });
 }
-document.addEventListener("DOMContentLoaded", renderCart);
+
